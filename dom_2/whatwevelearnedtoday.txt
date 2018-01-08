@@ -1,7 +1,0 @@
-* document.getElementById
-* document.body
-* document.title
-* innerHTML
-* innerText
-* `+=` 
-
