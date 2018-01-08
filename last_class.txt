@@ -1,0 +1,103 @@
+variable 
+  var age = 10;
+datatype
+* scalar 
+  * Number
+      * integer 10
+      * floating 10.02
+  * string "" ''
+  * boolean true or false
+* composite
+  * array 
+    ['a', 'b', 'c', 1][3]
+  * object
+     {1: 'a', 2: 'b', 3:'c', 4:1}[3]
+     {c1: 'a', c2: 'b', c3:'c', c4:1}.3
+
+operator
+  * uninary
+    ++ -- 
+  * binary
+     + - * / % = == ===  
+  * ternery
+    condition ? true block : false block;
+    true ? it will execute this block : it will execute this block when its not true;
+
+
+    
+  
+* controlflow
+  * conditional
+  if (true) {
+    it will execute this block
+  } else {
+
+    it will execute this block when its not true
+  }
+  if (condition one) {
+    this block will work if condition one is true
+  } else if (condition two) {
+
+    this block will work if condition two is true
+  } else {
+
+    this block will work if  any condition two is not true
+  }
+
+  switch (condition) {
+    case condition one: 
+      this block will work if condition one is true;
+      break;
+    case condition two: 
+      this block will work if condition two is true;
+      break;
+    case condition three: 
+      this block will work if condition three is true;
+      break;
+    default:
+      any of the condition is not true
+  }
+* iterative / loop
+  //while loop
+  var i = 0;
+   while (i > 100) {
+    console.log(i);
+    i++;
+  }
+  // do while
+  var i = 0;
+  do {
+    console.log(i);
+    i++;
+  }while (i > 100) 
+  // for loop
+  for (var i = 0;i < 100;i++) {
+    console.log(i);
+  }
+
+
+* functions
+  * built in 
+  var age = 10.5;
+  parseInt(age); // 10
+  Math.round(age); // 11
+  Math.floor(age); // 11
+  Math.ceil(age); // 11
+  * user defined
+    //unnamed function, anonymous function, closure
+    function () {
+
+    }
+    //function structure
+    function functionName () {
+
+    }
+
+  // assign function to a variable
+    var hello = function () {
+
+    }
+
+// invoking a functions
+hello();
+somefunction();
